@@ -10,7 +10,7 @@ def main():
     print("Starting training")
     model.train(
         data='dataset/data.yaml',
-        epochs=60,         # 60 is good for 70 images
+        epochs=40,         # 60 is good for 70 images
         imgsz=640,
         batch=4,
         workers=2,
