@@ -31,7 +31,6 @@ dist/
 
 # Dataset and model outputs
 runs/
-dataset/
 *.pt
 *.pth
 *.h5
