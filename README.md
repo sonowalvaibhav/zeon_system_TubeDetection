@@ -1,6 +1,6 @@
 # Zeon System
 
-This repository contains scripts for YOLOv8 oriented bounding box training, evaluation, data splitting, and prediction.
+This repository contains scripts for YOLOv8 oriented bounding box training, evaluation, data splitting, and prediction for object localization and orientation detection of 70 overhead images of centrifuge tubes 
 
 ## Setup
 
@@ -42,19 +42,4 @@ python src/evaluate.py
 
 ```powershell
 python src/predict.py
-```
-
-## GitHub push workflow
-
-1. Install Git for Windows from https://git-scm.com/download/win
-2. Restart PowerShell
-3. Run:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git branch -M main
-git push -u origin main
 ```
