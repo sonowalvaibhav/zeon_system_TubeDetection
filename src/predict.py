@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-MODEL_PATH = 'runs/obb/train-9/weights/best.pt'
+MODEL_PATH = 'runs/obb/train/weights/best.pt'
 IMAGE_URL = (
     'https://media.istockphoto.com/id/1334661211/photo/'
     'overhead-shot-of-researchers-hand-placing-tube-in-'
