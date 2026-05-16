@@ -7,8 +7,8 @@ from ultralytics import YOLO
 # Settings
 VAL_IMAGE_DIR = 'dataset/val/images'
 CSV_PATH = 'data/annotations.csv'
-MODEL_PATH = 'runs/obb/train-6/weights/best.pt'
-DIST_THRESHOLD = 10.0  # Match if center is within 5 pixels
+MODEL_PATH = 'runs/obb/train/weights/best.pt'
+DIST_THRESHOLD = 5.0  # Match if center is within 5 pixels
 DEBUG_PRINTS = False
 
 
